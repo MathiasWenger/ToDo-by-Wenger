@@ -50,7 +50,7 @@ def open_text_window():
     # Neues Fenster für die Texteingabe erstellen
     text_window = tk.Toplevel(root)
     text_window.title("Text Eingeben")
-    text_window.geometry("400x300")
+    text_window.geometry("800x600")
     text_window.configure(bg="#2c3e50")
 
     # Textfeld für die Eingabe erstellen
@@ -95,7 +95,7 @@ def upload_file(file_type):
     # Neues Fenster für das Hochladen von Dateien und Eingabe einer Beschreibung erstellen
     file_window = tk.Toplevel(root)
     file_window.title("Datei Hochladen")
-    file_window.geometry("400x300")
+    file_window.geometry("800x600")
     file_window.configure(bg="#2c3e50")
 
     # Textfeld für die Beschreibung erstellen
@@ -188,7 +188,7 @@ root.title("ToDo by Wenger")
 root.configure(bg="#2c3e50")
 
 # Hauptfenstergröße festlegen
-root.geometry("600x400")
+root.geometry("1200x800")
 
 # Liste zum Speichern der Einträge
 entries = load_entries()
